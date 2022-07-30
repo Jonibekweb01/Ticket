@@ -18,7 +18,7 @@ elForms.addEventListener("submit", function(e) {
         elResults.textContent = `${nameValue} marhamat borishingiz mumkun`;
     }
     else {
-        elResults.textContent = `${nameValue} borishingiz ma'n etiladi`;
+        elResults.textContent = `${nameValue} pulingiz yetarli miqdorda emas!!`;
     }
 });
 
